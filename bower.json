@@ -1,0 +1,30 @@
+{
+  "name": "jsdownloader",
+  "version": "0.0.1",
+  "homepage": "https://github.com/miller/jsdownloader",
+  "authors": [
+    "miller <chen.minliang@gmail.com>"
+  ],
+  "description": "Javscript file downloader supports mutilple files and folders.",
+  "main": "jsdownloader.js",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "javascript",
+    "downloader",
+    "file"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jszip": "Stuk/jszip#~2.4.0",
+    "FileSaver": "*"
+  }
+}
